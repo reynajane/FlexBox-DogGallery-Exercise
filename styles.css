@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: rgb(228, 202, 168);
+  color: #000040;
+  border-bottom: 4px solid #fdb347;
+}
