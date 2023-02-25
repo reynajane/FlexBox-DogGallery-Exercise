@@ -10,6 +10,7 @@ body {
 
 .gallery {
   display: flex;
+  flex-direction: column;
 }
 
 .gallery img {
@@ -18,7 +19,7 @@ body {
   height: 300px;
 }
 
-.header {
+.header{
   text-align: center;
   text-transform: uppercase;
   padding: 32px;
